@@ -1,0 +1,28 @@
+# Samvidhan Saathi - Constitution of India Chatbot 🇮🇳
+
+An AI-powered chatbot that answers questions from the Constitution of India using RAG.
+
+### Live Demo: [Your Gradio Link Here]
+
+## Tech Stack
+- **RAG** - Retrieval Augmented Generation
+- **FAISS** - Vector Database by Meta for semantic search
+- **LangChain** - To connect PDF, Embeddings & LLM
+- **Groq Llama-3.3-70B** - Ultra-fast LLM
+- **HuggingFace Embeddings** - all-MiniLM-L6-v2
+- **Gradio** - For UI
+
+## How it Works
+PDF -> Text Chunks -> Embeddings -> FAISS -> User Question -> Relevant Articles -> Groq -> Answer
+
+## How to Run
+1. pip install -r requirements.txt
+2. Add GROQ_API_KEY in .env
+3. python app.py
+
+## Features
+- Answers Article 21, 32, Fundamental Rights, Preamble etc.
+- Gives source-based answer
+- Fast response
+
+Made by Kanika Dixit

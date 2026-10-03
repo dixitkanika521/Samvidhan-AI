@@ -1,0 +1,11 @@
+CODE
+
+gradio
+langchain
+langchain-community
+langchain-groq
+langchain-huggingface
+faiss-cpu
+pypdf
+python
+sentence-transformers
