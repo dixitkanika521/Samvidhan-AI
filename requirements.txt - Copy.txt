@@ -1,0 +1,7 @@
+gradio
+groq
+langchain
+pypdf
+faiss-cpu
+sentence-transformers
+langchain-groq
